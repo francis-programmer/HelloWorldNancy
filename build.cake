@@ -24,9 +24,8 @@ const string octoPublishProject = "HelloNancy";
 Task("Default")
     .IsDependentOn("Info")
     .IsDependentOn("Get-Build-Number")
-    .IsDependentOn("Build");
-    //.IsDependentOn("Run-Unit-Tests")
-    //.IsDependentOn("Publish-Octopus-Package");
+    .IsDependentOn("Build")
+    .IsDependentOn("Publish-Octopus-Package");
 
 //////////////////////////////////////////////////////////////////////
 // EXECUTION
