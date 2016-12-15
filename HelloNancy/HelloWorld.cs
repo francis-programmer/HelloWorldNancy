@@ -10,7 +10,7 @@ namespace HelloNancy
     {
         public HelloWorld()
         {
-            Get["/"] = _ => "Hello World!";
+            Get["/"] = _ => "Hello World, please work!";
         }
     }
 }
